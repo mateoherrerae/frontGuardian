@@ -1,12 +1,10 @@
 import './App.css'
-import {
-  PantallaBase,
-  EntradaUrl,
-  SemaforoRiesgo,
-  ListaHistorial,
-  guardarEnHistorial,
-} from './components'
-import { useAnalisis } from './hooks'
+import { PantallaBase } from './components/PantallaBase'
+import { EntradaUrl } from './components/EntradaUrl'
+import { SemaforoRiesgo } from './components/SemaforoRiesgo'
+import { ListaHistorial } from './components/ListaHistorial'
+import { useAnalisis } from './hooks/useAnalisis'
+import { guardarEnHistorial } from './utils/historial'
 
 // componente principal de la aplicacion
 function App() {
